@@ -39,7 +39,7 @@ if (etaUtente <= 17) {
     messageSconto.innerHTML = "Sconto del 40% per gli over 65.";
     
 } else {
-    sconto = 1;
+    sconto = 0;
     console.log(sconto);
     messageSconto.innerHTML = "Nessuno sconto applicabile.";
 }
